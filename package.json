@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --config webpack.dev.js",
+        "start": "webpack serve --config webpack.dev.js",
         "build": "webpack --config webpack.prod.js",
         "lint": "eslint .",
         "test": "jest",
@@ -47,8 +47,7 @@
         "optimize-css-assets-webpack-plugin": "^5.0.4",
         "push-dir": "^0.4.1",
         "terser-webpack-plugin": "^4.1.0",
-        "webpack-merge": "^5.1.4"
+        "webpack-merge": "^5.8.0"
     },
     "description": ""
-
 }
